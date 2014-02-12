@@ -3,7 +3,7 @@ DoubanFM
 
 豆瓣FM iOS版
 
-<img src="https://github.com/yangcaimu/DoubanFM/blob/master/AppUI.png">
+![App UI](https://github.com/yangcaimu/DoubanFM/blob/master/AppUI.png)
 
 功能:在线听歌，有不同的频道供选择,登陆豆瓣账号还可以听私人频道,对喜欢的歌曲加心,
      支持账号自动登陆，在上次登陆成功的情况下
