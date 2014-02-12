@@ -24,7 +24,10 @@
 		798107271892184D00299905 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 798107091892184D00299905 /* UIKit.framework */; };
 		7981072F1892184D00299905 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 7981072D1892184D00299905 /* InfoPlist.strings */; };
 		798107311892184D00299905 /* FM_ycmTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 798107301892184D00299905 /* FM_ycmTests.m */; };
+		799F3FBA18A79300003871F8 /* Model.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 799F3FB818A79300003871F8 /* Model.xcdatamodeld */; };
+		799F3FBD18A79411003871F8 /* User.m in Sources */ = {isa = PBXBuildFile; fileRef = 799F3FBC18A79411003871F8 /* User.m */; };
 		79A8E87718977A39007CF082 /* Track.m in Sources */ = {isa = PBXBuildFile; fileRef = 79A8E87618977A39007CF082 /* Track.m */; };
+		79EF948418AB859A004BC175 /* AppUI.png in Resources */ = {isa = PBXBuildFile; fileRef = 79EF948318AB859A004BC175 /* AppUI.png */; };
 		844C0539999E47FCAD5A0B2E /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 3443A088D70A4274B953302F /* libPods.a */; };
 /* End PBXBuildFile section */
 
@@ -67,8 +70,12 @@
 		7981072C1892184D00299905 /* FM_ycmTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "FM_ycmTests-Info.plist"; sourceTree = "<group>"; };
 		7981072E1892184D00299905 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		798107301892184D00299905 /* FM_ycmTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FM_ycmTests.m; sourceTree = "<group>"; };
+		799F3FB918A79300003871F8 /* Model.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Model.xcdatamodel; sourceTree = "<group>"; };
+		799F3FBB18A79411003871F8 /* User.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = User.h; sourceTree = "<group>"; };
+		799F3FBC18A79411003871F8 /* User.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = User.m; sourceTree = "<group>"; };
 		79A8E87518977A39007CF082 /* Track.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Track.h; sourceTree = "<group>"; };
 		79A8E87618977A39007CF082 /* Track.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Track.m; sourceTree = "<group>"; };
+		79EF948318AB859A004BC175 /* AppUI.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = AppUI.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,6 +106,9 @@
 		7946C10E18A1130A00E0C692 /* model */ = {
 			isa = PBXGroup;
 			children = (
+				799F3FB818A79300003871F8 /* Model.xcdatamodeld */,
+				799F3FBB18A79411003871F8 /* User.h */,
+				799F3FBC18A79411003871F8 /* User.m */,
 				7946C10818A0B42600E0C692 /* Channel.h */,
 				7946C10918A0B42600E0C692 /* Channel.m */,
 				79A8E87518977A39007CF082 /* Track.h */,
@@ -110,6 +120,7 @@
 		798106F91892184D00299905 = {
 			isa = PBXGroup;
 			children = (
+				79EF948318AB859A004BC175 /* AppUI.png */,
 				7981070B1892184D00299905 /* FM_ycm */,
 				7981072A1892184D00299905 /* FM_ycmTests */,
 				798107041892184D00299905 /* Frameworks */,
@@ -270,6 +281,7 @@
 				7981071E1892184D00299905 /* Images.xcassets in Resources */,
 				798107101892184D00299905 /* InfoPlist.strings in Resources */,
 				798107191892184D00299905 /* Main.storyboard in Resources */,
+				79EF948418AB859A004BC175 /* AppUI.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -323,7 +335,9 @@
 			files = (
 				798107121892184D00299905 /* main.m in Sources */,
 				7946C10A18A0B42600E0C692 /* Channel.m in Sources */,
+				799F3FBD18A79411003871F8 /* User.m in Sources */,
 				798107161892184D00299905 /* FMAppDelegate.m in Sources */,
+				799F3FBA18A79300003871F8 /* Model.xcdatamodeld in Sources */,
 				7981071C1892184D00299905 /* FMViewController.m in Sources */,
 				7946C10D18A10F4B00E0C692 /* LoginViewController.m in Sources */,
 				79A8E87718977A39007CF082 /* Track.m in Sources */,
@@ -608,6 +622,19 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		799F3FB818A79300003871F8 /* Model.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				799F3FB918A79300003871F8 /* Model.xcdatamodel */,
+			);
+			currentVersion = 799F3FB918A79300003871F8 /* Model.xcdatamodel */;
+			path = Model.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
 	};
 	rootObject = 798106FA1892184D00299905 /* Project object */;
 }
